@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/happy_espurr"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/happy_espurr"
+        android:layout_weight="0.166"
+        android:onClick="change_to_happy" />
+    
+    <Button
+        android:id="@+id/sad_espurr"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/sad_espurr"
+        android:layout_weight="0.166"
+        android:onClick="change_to_sad" />
+    
+    <Button
+        android:id="@+id/angry_espurr"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.166"
+        android:text="@string/angry_espurr"
+        android:onClick="change_to_angry" />
+    
+    <Button
+        android:id="@+id/full_espurr"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.166"
+        android:text="@string/full_espurr"
+        android:onClick="change_to_full" />
+    
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.166"
+        android:text="@string/quit"
+        android:onClick="quit_app" />
+    
+</LinearLayout>

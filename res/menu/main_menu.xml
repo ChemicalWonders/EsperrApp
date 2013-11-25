@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/angry_espurr"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/angry_espurr"/>
+
+    <item
+        android:id="@+id/happy_espurr"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/happy_espurr"/>
+    
+    <item
+        android:id="@+id/full_espurr"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/full_espurr"/>
+    
+    <item
+        android:id="@+id/sad_espurr"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sad_espurr"/>
+</menu>
